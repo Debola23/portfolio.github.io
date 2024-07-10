@@ -6,7 +6,7 @@
             <meta name="author" content="Solaja Emmanuel">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>SOLAJA EMMANUEL</title>
+                <title>Solaja.com</title>
                 <link rel="icon" href="./IMAGES/favicon.ico" type="image/x-icon">
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
                     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -16,188 +16,182 @@
                 <link rel="stylesheet" href="style.css"/>
         </head> 
         <body>
-            <nav>
-                <ul>
-                    <li> <a href="#"></a>Bola.dev</li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffffff;">
+                <a class="navbar-brand" href="index.html" id="brand">Bola.dev</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </nav>
-            <div class="sidebar" id="sidebar">
-                <a href="#" class="close-btn" id="closeBtn">&times;</a>
-                <a href="#about">About</a>
-                <a href="#project">Project</a>
-                <a href="#contact">Contact</a>
-              </div>
-              <div class="content">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" class="open-btn" id="openBtn">
-                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            <div class="nav2">
+                <a class="navbar-brand" href="#">Bola.dev</a> 
+                <span id="open-sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="30px" viewBox="0 0 24 24">
+                        <path fill="black" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/>
                     </svg>
-                </a>
-              </div>
-              <section class="intro">
-                <div class="container1">
-                    <div class="left-side">
-                        <h1 class="h1">Front-End Developer<img src="./IMAGES/wave.png" height="30px" width="30px"></h1>
-                        <p class="p">
-                            Hi, I'm Solaja Emmanuel. A passionate Front-end Developer based in Lagos, Nigeria. 📍
-                        </p>
-                    <span class="link1">
-                       <a href="https://github.com/Debola23" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github">
-                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-                            </svg>
-                       </a>  
-                    </span>
-                    </div> 
-                    <div class="right-side">
-                        <img src="./IMAGES/bola.jpg" class="img2">
+                </span>
+            </div>
+            <div id="sidebar" class="sidebar">
+                <button id="close-sidebar" class="close-btn">&times;</button>
+                <a href="#./index.html" class="sidebar-link">Home</a>
+                <a href="#about" class="sidebar-link">About</a>
+                <a href="#projects" class="sidebar-link">Projects</a>
+                <a href="#contact" class="sidebar-link">Contact</a>
+            </div>
+            <section class="intro">
+                <div class="intro-box">
+                    <div class="box-content">
+                        <div class="hero">
+                            <div class="hero-text">
+                                <h1>
+                                    Front-End
+                                </h1>
+                                <h1>
+                                    Developer
+                                </h1>
+                                <p>
+                                    Hi, I'm Solaja Emmanuel. A passionate Front-end Developer based in Lagos, Nigeria. 📍
+                                </p>
+                                <span>
+                                    <a href="https://github.com/Debola23" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github">
+                                            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                                        </svg>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="hero-img"></div>
+                        </div>
+                        <div class="skills">
+                            <p>Tech Stack</p>
+                            <div class="logos">
+                                <ul>
+                                    <li><img src="./IMAGES/html-5.png" alt=""></li>
+                                    <li><img src="./IMAGES/css-3.png" alt=""></li>
+                                    <li><img src="./IMAGES/java-script.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="skills">
-                   <p>Tech Stack</p> 
-                   <div class="skills-icons">
-                    <ul>
-                        <li><img src="./IMAGES/html-5.png" alt="" class="si"></li>
-                        <li><img src="./IMAGES/css-3.png" alt="" class="si"></li>
-                        <li><img src="./IMAGES/java-script.png" alt="" class="si"></li>
-                        
-                       </ul>
-                    </div>
-                </div>
-              </section>
-              <div class="about" id="about">
-                <div class="parent">
-                    <div class="div1"> 
-                        <img src="./IMAGES/lapton on table.jpg" alt="" class="abt-img1">
-                    </div>
-                    <div class="div2">
-                        <h5>About Me</h5>
-                        <p class="ap">
-                            Front-end Developer based in Lagos, Nigeria 📍
-                        </p>
-                        <p class="ap2">
-                            Hi I'm a creative front-end developer dedicated to building user-friendly web experience,and can also
-                            team play with like minds.
-                            <br>
-                            <br>
-                            My goal is to create a comfortable interaction between the user and the web page, i'm
-                            also developing in other programming languages and its libraries.
-                        </p>
+            </section>
+          
 
-                    </div>
-                </div> 
-              </div>
-              <div class="projects" id="project">
-                <h5>Projects</h5>
-                <section class="section2">
-                    <div class="pro">
-                        <div class="pro-pic">
-                            <img class="wecare-img" src="./IMAGES/wecare.png">
-                        </div>
-                        <div class="pro-text">
-                            <div class="ecom-word">
-                                Health-Care(DECEMBER2023)
-                            </div>
-                            <p class="ecom-word2">
-                                With a focus on simplicity and clean design,
-                                this site prioritize user experience, 
-                                making it easy for them to navigate through.
-                            </p>
-                            <div class="stack">
-                                <p>
-                                    <img src="./IMAGES/html-5.png" alt="" class="si">
-                                </p>
-                                <p>
-                                    <img src="./IMAGES/css-3.png" alt="" class="si">
-                                </p>
-                                <P>
-                                    <img src="./IMAGES/java-script.png" alt="" class="si">
-                                </P>
-                            </div>
-                            <div class="demo">
-                                <a href="https://github.com/Debola23/We-Care.com?tab=readme-ov-file" target="_blank">
-                                Code
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github">
-                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-                                    </svg>
-                                </a>
-                                <a href="https://debola23.github.io/We-Care.com/" target="_blank">
-                                    Live Demo
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
-                                    stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-external-link">
-                                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path><path d="M11 13l9 -9">
-                                    </path><path d="M15 4h5v5"></path>
-                                    </svg>
-                                </a>
-                            </div>
+<section id="about" class="about">
+    <div class="about-container">
+        <div class="about-content">
+            <div class="img-side"><img class="laptop" src="./IMAGES/lapton on table.jpg" alt=""></div>
+            <div class="text-side">
+                <h3>About me</h3>
+                <h4>
+                    Front-end developer
+                    <br/>
+                    based in Lagos,Nigeria 📍
+                </h4>
+                <p>
+                    Hey 👋 I'm Solaja Emmanuel, a passionate front-end developer with an interest in creating responsive, user-friendly websites. 
+                    I am dedicated to crafting digital experiences that not only look great but also function seamlessly.
+                    <br/><br/>
+                    I also use modern frameworks and libries like Bootstrap,React and Jquery
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div id="projects">Projects</div>
+        <section class="projects">
+            <div class="project-container">
+                <div class="project-content">
+                    <div class="img-side"><img class="project-rental" src="./IMAGES/carrental.png" alt=""></div>
+                    <div class="text-sidepro">
+                        <h3>Car Rental</h3>
+                        <p>
+                            This project is a car rental site with a simple and friendly user interface,
+                            it displays the various options and features a car rental site would have
+                        </p>
+                        <div class="pro-links">
+                            <a href="https://github.com/Debola23/Car-rental" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
+                            <a href="https://debola23.github.io/Car-rental/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
-                </section>
-                <div class="blocker"></div>
-                <section class="section3">
-                    <div class="pro">
-                        <div class="pro-pic">
-                            <img class="wecare-img" src="./IMAGES/carrental.png">
-                        </div>
-                        <div class="pro-text">
-                            <div class="ecom-word">
-                                Car-rental(January2024)
-                            </div>
-                            <p class="ecom-word2">
-                               A user friendly car rental website that helps
-                               the user navigate their way to whatever vehicle 
-                               of their choosing.
-                            </p>
-                            <div class="stack">
-                                <p>
-                                    <img src="./IMAGES/html-5.png" alt="" class="si">
-                                </p>
-                                <p>
-                                    <img src="./IMAGES/css-3.png" alt="" class="si">
-                                </p>
-                                <P>
-                                    <img src="./IMAGES/java-script.png" alt="" class="si">
-                                </P>
-                            </div>
-                            <div class="demo">
-                                <a href="https://github.com/Debola23/carrental.com" target="_blank">
-                                Code
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github">
-                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-                                    </svg>
-                                </a>
-                               <a href="https://debola23.github.io/carrental.com/" target="_blank">
-                                    Live Demo
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
-                                    stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-external-link">
-                                    <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path><path d="M11 13l9 -9">
-                                    </path><path d="M15 4h5v5"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-              </div>
-              <div class="contact" id="contact">
-                <h5>Contact</h5>
-                <div class="contact-icon">
-                    <a href="https://wa.link/qrom6f" target="_blank">
-                        <img src="./IMAGES/whatsapp.png" class="ci">
-                    </a>
-                    <a href=mailto:emmanueladebola98@gmail.com target="_blank">
-                        <img src="./IMAGES/gmail.png" class="ci">
-                    </a>
                 </div>
-              </div>
-              <footer>
-                <div class="fw">
-                    COPYRIGHT&copy;2024
+                <div class="project-content2">
+                    <div class="img-side"><img class="project-rental2" src="./IMAGES/wecare.png" alt=""></div>
+                    <div class="text-sidepro" id="pro2">
+                        <h3>Health Care</h3>
+                        <p>
+                            This project is an health care website with easy navigation that,
+                            it displays the avaliable features of an hospital, and also has a neat layout
+                        </p>
+                        <div class="pro-links">
+                            <a href="https://github.com/Debola23/Wecare-Hospital" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
+                            <a href="https://debola23.github.io/Wecare-Hospital/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </footer>
+                <div class="project-content">
+                    <div class="img-side"><img class="project-rental" src="./IMAGES/shopbox.png" alt=""></div>
+                    <div class="text-sidepro">
+                        <h3>Shop Box</h3>
+                        <p>
+                            This project is an e-commerce site with a simple and friendly user interface,
+                            it displays the various options and features any e-commerce site would have
+                        </p>
+                        <div class="pro-links">
+                            <a href="https://github.com/Debola23/Shopbox" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
+                            <a href="https://debola23.github.io/Shopbox/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <footer class="footer" id="contact">
+                <div class="container-foot">
+                    <p>&copy; 2024. All Rights Reserved.</p>
+                    <div class="footer-icons">
+                        <a href="mailto:mailto:emmanueladebola98@gmail.com"><img src="./IMAGES/gmail.png" class="ii" alt=""></a>
+                        <a href="https://wa.link/e4utrj" target="_blank"><img src="./IMAGES/whatsapp.png" class="ii" alt=""></a>
+                    </div>
+                </div>
+            </footer>
+         
         </body>
     <script src="index.js"></script>
     </html>
