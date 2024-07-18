@@ -52,7 +52,7 @@ body{
   color: rgb(247, 240, 240);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 30px;
   z-index: 999;
 }
 .sidebar a{
